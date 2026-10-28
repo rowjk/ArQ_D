@@ -31,23 +31,6 @@ flowchart LR
     CC <-->|"失敗時互相接手"| AGY
 ```
 
-## 📸 實際畫面
-
-<!--
-截圖放在 docs/images/ 後取消這段註解（截圖前遮掉 Discord user ID、頻道名稱與 ticket repo 名稱）：
-
-| 派工與即時回報 | 風險操作同意卡 | 核心修改驗收卡 |
-| :---: | :---: | :---: |
-| <img src="docs/images/dispatch.png" width="260" alt="手機上交代開發任務，PM 受理並回報 job 編號"> | <img src="docs/images/approval.png" width="260" alt="安裝套件前跳出的同意 / 拒絕按鈕"> | <img src="docs/images/acceptance.png" width="260" alt="git diff 與全部測試結果組成的驗收卡"> |
-
-<p align="center">
-  <img src="docs/images/demo.gif" width="320" alt="從手機下需求到按下 commit 的完整流程">
-  <br/><sub>從手機提需求 → RD 規劃與實作 → 驗收卡 → 回覆 commit（約 30 秒）</sub>
-</p>
--->
-
-> 📷 截圖與操作 GIF 整理中。
-
 ## ✨ 特色
 
 | | |
