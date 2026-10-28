@@ -7,6 +7,13 @@
 [![Gemini](https://img.shields.io/badge/Gemini-3.8%20Flash-4285F4?logo=google&logoColor=white)](https://ai.google.dev/)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Sonnet%205.5-D97706?logo=anthropic&logoColor=white)](https://claude.ai/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+<br/>
+[![tests](https://github.com/rowjk/ArQ_D/actions/workflows/tests.yml/badge.svg)](https://github.com/rowjk/ArQ_D/actions/workflows/tests.yml)
+[![Unit tests](https://img.shields.io/badge/unit%20tests-988-brightgreen)](tests/)
+[![Network](https://img.shields.io/badge/tests-offline%20only-lightgrey)](tests/netguard.py)
+[![Platform](https://img.shields.io/badge/platform-Windows-0078D6?logo=windows&logoColor=white)](#-快速開始)
+
+**988 個單元測試** · **62 個 PR / 167 個 commit**（私有開發 repo，以 ticket → 規劃 → TDD → PR 流程完成）· **3 道人工關卡**（commit / PR review / merge）· **fail-closed** 同意機制
 
 </div>
 
