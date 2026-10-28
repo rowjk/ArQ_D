@@ -7,6 +7,13 @@
 [![Gemini](https://img.shields.io/badge/Gemini-3.8%20Flash-4285F4?logo=google&logoColor=white)](https://ai.google.dev/)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Sonnet%205.5-D97706?logo=anthropic&logoColor=white)](https://claude.ai/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+<br/>
+[![tests](https://github.com/rowjk/ArQ_D/actions/workflows/tests.yml/badge.svg)](https://github.com/rowjk/ArQ_D/actions/workflows/tests.yml)
+[![Unit tests](https://img.shields.io/badge/unit%20tests-988-brightgreen)](tests/)
+[![Network](https://img.shields.io/badge/tests-offline%20only-lightgrey)](tests/netguard.py)
+[![Platform](https://img.shields.io/badge/platform-Windows-0078D6?logo=windows&logoColor=white)](#-快速開始)
+
+**988 個單元測試** · **62 個 PR / 167 個 commit**（私有開發 repo，以 ticket → 規劃 → TDD → PR 流程完成）· **3 道人工關卡**（commit / PR review / merge）· **fail-closed** 同意機制
 
 </div>
 
@@ -23,6 +30,23 @@ flowchart LR
     PM --> LOCAL["🛠️ 本機工具<br/>系統、截圖、PowerShell、搜尋、API 呼叫、MCP"]
     CC <-->|"失敗時互相接手"| AGY
 ```
+
+## 📸 實際畫面
+
+<!--
+截圖放在 docs/images/ 後取消這段註解（截圖前遮掉 Discord user ID、頻道名稱與 ticket repo 名稱）：
+
+| 派工與即時回報 | 風險操作同意卡 | 核心修改驗收卡 |
+| :---: | :---: | :---: |
+| <img src="docs/images/dispatch.png" width="260" alt="手機上交代開發任務，PM 受理並回報 job 編號"> | <img src="docs/images/approval.png" width="260" alt="安裝套件前跳出的同意 / 拒絕按鈕"> | <img src="docs/images/acceptance.png" width="260" alt="git diff 與全部測試結果組成的驗收卡"> |
+
+<p align="center">
+  <img src="docs/images/demo.gif" width="320" alt="從手機下需求到按下 commit 的完整流程">
+  <br/><sub>從手機提需求 → RD 規劃與實作 → 驗收卡 → 回覆 commit（約 30 秒）</sub>
+</p>
+-->
+
+> 📷 截圖與操作 GIF 整理中。
 
 ## ✨ 特色
 
