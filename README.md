@@ -55,6 +55,23 @@ flowchart TD
   MC --> DN["ticket Done"]
 ```
 
+## 🧭 Agentic Engineering 對應
+
+ArQ 把 Agentic Engineering 常見的關注點都做成可測試的程式，不只是工具呼叫：
+
+| 概念 | ArQ 的實作 |
+| :--- | :--- |
+| 階層式多代理人編排 | Gemini PM（Orchestrator）+ Claude Code / agy（Worker），Planner–Worker 模式 |
+| Agent Harness | 子行程監控、背景佇列、逾時看門狗、失敗換手、可中斷、輪替日誌 |
+| 上下文工程與隔離 | PM 不讀程式碼、RD 只收規格化需求、`session_id` 續接、歷史裁切與顯式快取 |
+| HITL 與防護欄 | 工具層前置攔截、同意卡、fail-closed、commit / PR / merge 三道人工關卡 |
+| 規劃—執行雙階段 | `plan=true` 只讀規劃 → 使用者裁決 → 同一位 RD 實作 |
+| TDD 自我修正閉環 | 先寫測試、依錯誤修正，系統獨立跑全部測試做成驗收卡 |
+| 受限動作空間 | worktree 隔離、唯讀金融 API、金鑰隔離、MCP 視為不可信 |
+| 外部記憶與看板 | GitHub Issues 當記憶與狀態機，Projects 看板即時同步 |
+
+逐項說明與程式位置見 **[docs/AGENTIC_ENGINEERING.md](docs/AGENTIC_ENGINEERING.md)**。
+
 完整架構圖（系統總覽、訊息流程、RD 派工與換手、模組相依）與設計取捨見 **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)**；
 指令、設定與各項功能的完整說明見 **[docs/USAGE.md](docs/USAGE.md)**。
 
