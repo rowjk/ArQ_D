@@ -31,6 +31,13 @@ flowchart LR
     CC <-->|"失敗時互相接手"| AGY
 ```
 
+## 📱 實際畫面
+
+<p align="center">
+  <img src="docs/images/demo_screenshot.jpg" width="320" alt="手機 Discord 上，ArQ 回報推送完成、跳出重新啟動的同意卡，同意後重啟並主動回報">
+  <br/><sub>手機上交代任務 → ArQ 回報結果 → 風險操作（重新啟動）跳同意卡，15 分鐘未決定自動拒絕 → 同意後重啟並主動回報</sub>
+</p>
+
 ## ✨ 特色
 
 | | |

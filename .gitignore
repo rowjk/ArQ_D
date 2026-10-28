@@ -17,6 +17,7 @@ screenshots/
 *.png
 *.jpg
 *.jpeg
+!docs/images/**
 *.pdf
 test-results/
 playwright-report/
