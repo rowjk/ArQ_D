@@ -1,0 +1,45 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Playwright & Screenshots
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+test-results/
+playwright-report/
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# User task scripts and artifacts
+task/
+
+# MCP 伺服器設定：可能含本機路徑，範例見 mcp_servers.example.json
+mcp_servers.json
+
+# Runtime state (重啟狀態檔、Claude hook 交握檔、暫存執行檔)
+_temp/
+
+# Shioaji SDK 執行期 log
+shioaji.log

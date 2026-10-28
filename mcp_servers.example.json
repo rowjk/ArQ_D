@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "everything": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-everything@2.0.0"],
+      "auto_approve": [],
+      "call_timeout": 30,
+      "startup_timeout": 90
+    },
+    "example-with-secret": {
+      "command": "npx",
+      "args": ["-y", "example-mcp-server@1.0.0"],
+      "env": {"EXAMPLE_API_KEY": "${EXAMPLE_API_KEY}"},
+      "include": ["search"],
+      "enabled": false
+    }
+  }
+}
